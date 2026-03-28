@@ -1,0 +1,97 @@
+.historial {
+  padding: 1rem 0;
+}
+
+.historial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.historial-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.histories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.history-card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--primary-color);
+}
+
+.history-card:nth-child(even) {
+  border-left-color: var(--secondary-color);
+}
+
+.history-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.history-icon {
+  font-size: 1.5rem;
+}
+
+.history-info {
+  flex: 1;
+}
+
+.history-type {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.history-title {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.history-date {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.history-description {
+  color: var(--text-primary);
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.history-detail {
+  background: var(--background-color);
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+}
+
+.history-detail p {
+  margin: 0.25rem 0;
+}
+
+.history-dentist {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin: 0.5rem 0 0 0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+}

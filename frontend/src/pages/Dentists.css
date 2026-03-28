@@ -1,0 +1,5 @@
+.dentists-page .modal,
+.treatments-page .modal,
+.appointments-page .modal {
+  max-width: 550px;
+}

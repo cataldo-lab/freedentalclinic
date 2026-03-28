@@ -1,0 +1,53 @@
+.patient-detail {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.patient-detail .back-link {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  font-size: 0.875rem;
+}
+
+.patient-detail .page-title {
+  margin-bottom: 0.25rem;
+}
+
+.patient-email {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.patient-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.info-item label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.info-item span {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.tab-content {
+  padding-top: 1rem;
+}

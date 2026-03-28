@@ -1,0 +1,80 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: var(--surface-color);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.sidebar-nav {
+  padding: 1rem;
+  flex: 1;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: all 0.15s ease;
+  margin-bottom: 0.25rem;
+}
+
+.nav-link:hover {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background-color: #eff6ff;
+  color: var(--primary-color);
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 250px;
+  padding: 2rem;
+  background-color: var(--background-color);
+  min-height: 100vh;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.page-actions {
+  display: flex;
+  gap: 0.5rem;
+}
